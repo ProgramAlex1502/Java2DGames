@@ -2,6 +2,8 @@ package textfighter.player;
 
 public class Stats {
 	
+	//TODO: Class Stats
+	
 	//Coins
 	public static int totalCoinsSpent;
 	
