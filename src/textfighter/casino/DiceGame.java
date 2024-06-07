@@ -1,13 +1,13 @@
 package textfighter.casino;
 
-import java.util.Random;
-
+import textfighter.main.Handle;
+import textfighter.main.Random;
 import textfighter.main.Ui;
 import textfighter.player.Coins;
 
 public class DiceGame extends BasicCasinoGame{
 
-	protected DiceGame() {
+	public DiceGame() {
 		super("------------------------------------------------------------------\n" +
                 "                                Dice Game                            \n" +
                 "------------------------------------------------------------------",
@@ -99,15 +99,12 @@ public class DiceGame extends BasicCasinoGame{
         Ui.println();
         Ui.println("Coins Won: " + coinsWon);
         return coinsWon;
-		}
 		
-		return 0;
 	}
 
 	@Override
 	protected int getExitEntry() {
-		// TODO Auto-generated method stub
-		return 0;
+		return 2;
 	}
 
 }

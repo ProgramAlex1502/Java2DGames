@@ -24,7 +24,7 @@ public class BlackjackGame extends BasicCasinoGame{
 				"I am trying to do the same. The one who is closer to 21 gets\n" + 
 				"double the amount of coins you bet. It has to be between 10 and 250\n" + 
 				"coins. You decide whether or not you receive another card.",
-				"1) Let's play!\n" + 
+				"1) Let's play! \n" + 
 				"2) Back to the casino menu",
 				GameType.BLACKJACK);
 		
