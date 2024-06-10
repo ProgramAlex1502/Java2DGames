@@ -7,6 +7,7 @@ import javax.swing.JOptionPane;
 
 import textfighter.player.Achievements;
 import textfighter.player.Coins;
+import textfighter.player.Health;
 import textfighter.player.Stats;
 import textfighter.player.Xp;
 
